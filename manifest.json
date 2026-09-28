@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "version": "1.5",
+  "name": "Twitch Point Collector",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.twitch.tv/*"
+      ],
+      "js": [
+        "main.js"
+      ]
+    }
+  ]
+}
