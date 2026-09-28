@@ -10,5 +10,7 @@ Thumbs.db
 
 # Web Extension Build Artifacts
 web-ext-artifacts/
+.web-extension-id
 *.zip
 *.xpi
+
