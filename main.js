@@ -17,8 +17,7 @@ let initialize = () => {
   let iteration = 0;
   interval = setInterval(() => {
     if (iteration <= 5) {
-      // let btnContainer = document.getElementsByClassName('kxrhnx')[0];
-      let btnContainer = document.getElementsByClassName('liFGiB')[0];
+      let btnContainer = document.getElementsByClassName('community-points-summary')[0];
       if (btnContainer) {
         let btn = document.querySelector('[aria-label="Claim Bonus"]');
         if (btn) btn.click();
